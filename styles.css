@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    max-width: 98vw;
+}
+
+body {
+    background-image: url("./res/background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    font-size: 35px;
+    width: 100vw;
+    height: 15vh;
+}
+
+.navtext {
+    text-decoration: none;
+    color: white;
+    padding-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navtext:hover {
+    text-decoration: none;
+    color: black;
+    padding-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    letter-spacing: 2px;
+}
+
+.navtext_selected {
+    text-decoration: none;
+    color:black;
+    padding-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+#main_div {
+    font-size: 75px;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+}
+
+#main_text {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 250px;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px black;
+    color:white;
+}
+
+#sub_main_text {
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+#learn_more {
+    background-color: rgb(0, 94, 245);
+    color:white;
+    width: 8vw;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1vw;
+}
+
+#learn_more:hover {
+    background-color: aqua;
+    width: 8vw;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1vw;
+}
+
+#middle {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto';
+    margin: 400px 0px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.projects_div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100vw;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.project {
+    margin: 0px 5vw;
+}
+
+.project_text {
+    font-family: 'Roboto';
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+.project_img {
+    border-style: solid;
+    border-radius: 100%;
+    border-color: black;
+    border-width: 4px;
+    width: 12vw;
+    cursor: pointer;
+}
+
+.project_img:hover {
+    border-style: solid;
+    border-radius: 100%;
+    border-color: black;
+    border-width: 4px;
+    width: 12vw;
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+.section_text {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    text-shadow: 2px 2px black;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.about_section_text {
+    margin-top: 25px;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: papayawhip;
+    font-family: 'Roboto';
+}
