@@ -1,0 +1,78 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+    padding-top: 10vw;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+#main_img {
+    width: 15vw;
+}
+
+.button_yes {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+}
+
+.button_no {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 5vw;
+    height: 5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+}
+
+.button_yes:hover {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 5vw;
+    height: 5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    filter: brightness(120%);
+    border-radius: 20%;
+}
+
+.button_no:hover {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    width: 5vw;
+    height: 5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    filter: brightness(80%);
+    border-radius: 20%;
+}
+
+
+#main_div {
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 30vw;
+}
